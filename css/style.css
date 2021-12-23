@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;100i;300;300i;400;400i;500;500i;700;700i;900&display=swap');
 
 
 * {
@@ -123,4 +123,69 @@ header {
 .info ul li img:hover {
     background-color: #f9faf8;
     cursor: pointer;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    height: 550px;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 40px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.3em;
+}
+
+.quote-author {
+    padding-top: 10px;
+    font-size: 28px;
+    font-weight: 700;
+    float: right;
+}
+
+.slider-container {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.quotes-container {
+    width: 80%;
+}
+
+.fa-chevron-left, .fa-chevron-right {
+    font-size: 40px;
+}
+
+.btn {
+    background-color: #bcbec2;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border-style: none;
+    position: absolute;
+}
+
+#prev {
+    left: 10px;
+}
+
+#next { 
+    right: 10px;
+}
+
+.btn:hover {
+    background-color: #c5c6c7;
+    cursor: pointer;
+}
+
+footer {
+    height: 200px;
 }
