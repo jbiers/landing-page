@@ -203,6 +203,50 @@ header {
     cursor: pointer;
 }
 
+#call-to-action {
+    background-color: #f9faf8;
+}
+
+#call-div {
+    background-color: #3882f6;
+    color: #f9faf8;
+    display: flex;
+    width: 70%;
+    align-items: center;
+    margin: 120px auto;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 80px 180px 80px 180px;
+}
+
+#call-text h4 {
+    font-size: 25px;
+}
+
+#call-text p {
+    font-size: 18px;
+}
+
+#sign-up-btn {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: 2px solid #f9faf8;
+    padding: 12px 50px 12px 50px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+#sign-up-btn:hover {
+    cursor: pointer;
+    background-color: #3872f6;
+}
+
 footer {
-    height: 200px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    align-content: center;
+    padding: 60px;
+    font-size: 23px;
 }
