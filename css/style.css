@@ -137,7 +137,6 @@ header {
 .quote-div {
     width: 100%;
     flex-shrink: 0;
-    padding: 10px;
 }
 
 .quote {
@@ -160,12 +159,21 @@ header {
     justify-content: center;
     align-items: center;
     position: relative;
+    overflow: hidden;
+}
+
+.quotes-container-container {
+    overflow: hidden;
+    width: 1000px;
+    height: 300px;
 }
 
 .quotes-container {
-    width: 80%;
+    width: 1000px;
+    height: 300px;
     display: flex;
-    overflow: hidden;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
 }
 
 .fa-chevron-left, .fa-chevron-right {
